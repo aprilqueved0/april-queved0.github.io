@@ -1,24 +1,42 @@
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-}
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 header {
-    background-color: #f4c524;
-    color: #000;
+    background-color: #030d1c;
     padding: 15px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-family: "Bebas Neue", serif;
+    font-size: 1.5em;
 }
-.nav-links a {
-    color: #e7688b;
+
+.nav-left, .nav-right {
+    display: flex;
+    gap: 20px; 
+    flex: 1; 
+    justify-content: center;
+}
+
+.nav-left a, .nav-right a {
+    color: #d0e5f0;
     text-decoration: none;
-    margin: 0 15px;
+    font-weight: bold;
 }
-.nav-links a:hover {
-    text-decoration: underline;
-}
+
 .header-image {
-    max-height: 150px;
-    margin-left: 10px;
+    max-height: 125px;
+}
+
+body {
+    margin: 0;
+    font-family: "IBM Plex Sans", serif;
+}
+
+footer {
+    background-color: #030d1c;
+    font-family: "Bebas Neue", serif;
+    color: #d0e5f0;
+    padding: 10px;
+    text-align: center;
 }
