@@ -53,6 +53,7 @@ body {
 .col-5 {
   flex: 0 0 auto;
   width: 41.66666667%; /* Bootstrap's col-5 width */
+  padding-top: 1%;
 }
 
 .col-7 {
@@ -87,13 +88,13 @@ footer {
 /* Media queries for responsive layout */
 @media (max-width: 1200px) {
   .bio p {
-    font-size: 1.4rem;
+    font-size: 1.365rem;
   }
 }
 
 @media (max-width: 992px) {
   .bio p {
-    font-size: 1.2rem;
+    font-size: 1.0rem;
   }
 }
 
@@ -119,6 +120,6 @@ footer {
 /* For large screens, maintain proportions */
 @media (min-width: 1400px) {
   .bio p {
-    font-size: 1.6rem; /* Cap the maximum font size */
+    font-size: 1.85rem; /* Cap the maximum font size */
   }
 }
