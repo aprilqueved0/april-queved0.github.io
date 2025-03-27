@@ -2,6 +2,7 @@
 
 /* Base styles */
 body {
+  background-image: url(img/favlincvue.png);
   margin: 0;
   font-family: "Noto Serif", serif;
 }
@@ -13,28 +14,39 @@ body {
   color: #f59351;
 }
 
-/* Navigation */
-.top-nav {
+/* Style for the header container */
+.top-bar {
   position: absolute;
   top: 20px;
+  left: 20px;
   right: 20px;
-  font-size: 1.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   font-family: "IBM Plex Sans", sans-serif;
-  font-weight: 500;
   z-index: 10;
 }
 
-.top-nav nav {
+/* Style for the name on the left */
+.name {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 2rem;
+  font-weight: italic;
+  color: #011E31;
+}
+
+/* Style for the navigation container */
+.top-nav {
   display: flex;
   gap: 15px;
 }
 
+/* Style for navigation links */
 .top-nav a {
-  color: #011E31;
+  color: #f59351;
   text-decoration: none;
   font-weight: normal;
-  font-family: "IBM Plex Sans", sans-serif;
-  font-style: normal;
+  font-size: 2rem;
 }
 
 .top-nav a:hover {
@@ -45,8 +57,9 @@ body {
 .bio {
   font-family: "IBM Plex Sans", serif;
   color: #011E31;
-  margin: 10px;
-    padding: 20px;
+  margin: 100px;
+  padding: 40px;
+  background: white;
 }
 
 /* Ensure text column is never larger than headshot column */
