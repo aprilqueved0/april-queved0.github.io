@@ -2,9 +2,9 @@
 
 /* Base styles */
 body {
-  background-image: url(img/favlincvue.png);
   margin: 0;
   font-family: "Noto Serif", serif;
+  background-color: #DAD9D6;
 }
 
 .shadows-font {
@@ -52,3 +52,85 @@ body {
   .top-nav a:hover {
     text-decoration: underline;
   }
+
+/* Body */
+/* Main Container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 1000px;
+    margin: 120px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px #00000033;
+    font-family: "IBM Plex Sans", serif;
+}
+
+/* Left Column */
+.left-column {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-right: 20px;
+    border-right: 2px solid #ddd;
+}
+
+/* Skills & Education */
+.skills, .education {
+    background: #f8f8f8;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.skills ul {
+    list-style: none;
+    padding: 10px 0;
+}
+
+.skills li {
+    padding: 5px 0;
+}
+
+.right-column {
+    width: 65%;
+    padding: 20px;
+}
+
+/* Right Column */
+/* Experience */
+.job {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 15px;
+}
+
+.job h3 {
+    color: #333;
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.job p {
+    font-style: normal;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.job ul {
+    padding-left: 20px;
+}
+
+.job li {
+    margin-bottom: 5px;
+    line-height: 1.5;
+}
+
+
+/* Footer */
+footer {
+    margin-top: 20px;
+    font-size: 14px;
+}

@@ -11,7 +11,7 @@ body {
   font-family: 'Raleway', sans-serif;
   font-style: italic;
   font-weight: 500;
-  color: #f59351;
+  color: #011E31;
 }
 
 /* Style for the header container */
@@ -56,7 +56,7 @@ body {
 
 /* Simple contact form */
 .contact * {
-    font-family: 'Raleway', sans-serif;
+  font-family: "IBM Plex Sans", serif;
   }
   
   .contact .text-blk {
@@ -313,7 +313,7 @@ body {
     color: #dadada;
   }
   
-  .contact .blueBG {
+  .contact .background {
     position: absolute;
     width: 100%;
     left: 0px;
