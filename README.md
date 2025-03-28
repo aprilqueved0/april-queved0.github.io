@@ -6,7 +6,7 @@ First, I decided to exclude the "photo" and "applications" pages because neither
 <li>Not very dynamic -- phone views are probably the worst. Would appreciate some feedback on how to make those look better.</li>
 
 ## Print:
-<li>I think maybe I should swap this background color with the one used for my resume page? The dark blue doesn't work well with the clip container.</li>  
+<li>I think maybe I should swap this background color with something slightly darker?</li>  
 <li>I removed the search bar and filters for now. I think those would work on WordPress best since WordPress allows you to assign tags to your work and houses your actual article text.</li>
 <li>(This is me just giving myself more Illustrator work, BUT) I'm thinking of redoing all the thumbnail images so they compliment the site's color theme -- thoughts?</li>
 <li>I couldn't figure out how to increase the space between the bottom row of clip boards and footer. I tried in a couple of places but saw nothing change so I removed the code line.</li>
