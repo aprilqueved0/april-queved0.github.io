@@ -18,7 +18,7 @@
     font-family: "IBM Plex Sans", sans-serif;
     font-size: 2.3rem;
     font-weight: italic;
-    color: #DAD9D6;
+    color: #011E31;
   }
   
   /* Style for the navigation container */
@@ -29,7 +29,7 @@
   
   /* Style for navigation links */
   .top-nav a {
-    color: #f59351;
+    color: #011E31;
     text-decoration: none;
     font-weight: normal;
     font-size: 1.8rem;
@@ -43,7 +43,7 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #0C4160;
+    background-color: #8db8c4;
 }
 
 main {
