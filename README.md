@@ -8,7 +8,7 @@ First, I decided to exclude the "photo" and "applications" pages because neither
 ## Print:
 <li>I think maybe I should swap this background color with something slightly darker?</li>  
 <li>I removed the search bar and filters for now. I think those would work on WordPress best since WordPress allows you to assign tags to your work and houses your actual article text.</li>
-<li>(This is me just giving myself more Illustrator work, BUT) I'm thinking of redoing all the thumbnail images so they compliment the site's color theme -- thoughts? It looks ugly as is...</li>
+<li>(This is me just giving myself more Illustrator work, BUT) I'm thinking of redoing all the thumbnail images so they compliment the site's color theme -- thoughts? It looks ugly as is...maybe I just add a blue tinted overlay to the thumbnails with an opacity between 50 and 75%?</li>
 <li>I couldn't figure out how to increase the space between the bottom row of clip boards and footer. I tried in a couple of places but saw nothing change so I removed the code line.</li>
 
 ## Contact:
