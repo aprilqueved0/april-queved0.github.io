@@ -1,5 +1,5 @@
 # Site notes:
-First, I decided to exclude the "photo" and "applications" pages because neither have publishable content right now. I plan to add them on as I build those skills out.
+First, I decided to exclude the "photo" and "applications" pages because neither have publishable content right now. I plan to add them on as I complete apps and build an event photo gallery.
 
 ## About me:
 <li>Bio photo is <i>old</i>. I included it because the color scheme matches the background image. This will be updated...as soon as I get my roots touched up.</li>
