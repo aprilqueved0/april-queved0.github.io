@@ -81,6 +81,12 @@ section.graphics {
     font-size: 0.9em;
 }
 
+section.graphics .container {
+    width: 90%;
+    max-width: 100%;
+    padding: 0 15px;
+}
+
 .chart-container {
     margin: 2em 0;
 }
